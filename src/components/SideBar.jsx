@@ -37,7 +37,7 @@ const SideBar = () => {
               setShowSidebar(false);
             }}
           >
-            <i class="bi bi-x-circle"></i>
+            <i className="bi bi-x-circle"></i>
           </button>
         )}
       </div>

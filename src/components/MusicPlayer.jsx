@@ -33,10 +33,7 @@ const MusicPlayer = () => {
                 <i className="bi bi-list"></i>
               </Button>
               {showSidebar && (
-                <div
-                  className="show-sidebar-sm"
-                  style={{ background: "black !important" }}
-                >
+                <div className="show-sidebar-sm">
                   <SideBar />
                 </div>
               )}

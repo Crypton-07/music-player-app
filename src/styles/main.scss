@@ -47,8 +47,18 @@ body {
   }
 
   .show-sidebar-sm {
-    display: block;
-    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Sidebar hidden initially */
+    width: 250px;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 3s ease-in-out linear; /* Smooth transition */
+    z-index: 1000;
+  }
+
+  .show-sidebar-sm.show {
+    left: 0; /* Sidebar slides into view */
   }
 
   .menu-toggle {
