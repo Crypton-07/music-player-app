@@ -1,0 +1,114 @@
+@import "variable";
+@import "player";
+@import "playerSmall";
+@import "songList";
+@import "sidebar";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.music-player-app {
+  height: 100vh;
+  transition: background 0.5s ease;
+  color: white;
+}
+
+.sidebar-col {
+  padding: 0;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+
+  @media (max-width: 767px) {
+    padding: 10px;
+  }
+}
+
+.mobile-header {
+  display: none;
+  align-items: center;
+  margin-bottom: 15px;
+
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .show-sidebar-sm {
+    display: block;
+    z-index: 10;
+  }
+
+  .menu-toggle {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  @media (max-width: 767px) {
+    display: flex;
+  }
+}
+
+.search-row {
+  width: 100%;
+  margin-bottom: 2rem;
+
+  .search-container {
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    .search-bar {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      color: white;
+      padding: 0.5rem 1rem;
+    }
+  }
+  .search-bar:focus {
+    outline: none;
+  }
+  .search-bar::placeholder {
+    color: white;
+  }
+}
+
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+.player-row-sm {
+  display: none;
+  @media (max-width: 968px) {
+    display: block;
+  }
+}
+
+.player-row {
+  margin-top: auto;
+  @media (max-width: 968px) {
+    display: none;
+  }
+}

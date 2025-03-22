@@ -1,0 +1,95 @@
+.player-controlssm {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+
+  .now-playingsm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    &-thumbnailsm {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    &-infosm {
+      flex: 1;
+
+      h4 {
+        margin: 5px 0;
+        font-size: 22px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 12px;
+        opacity: 0.8;
+      }
+    }
+
+    &-actionssm {
+      .favorite-btnsm {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+
+        &.activesm {
+          color: #ff4081;
+        }
+      }
+    }
+  }
+
+  .player-main-controlssm {
+    .control-buttonssm {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 10px;
+
+      .control-btnsm {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        &.play-pausesm {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .progress-containersm {
+      display: flex;
+      align-items: center;
+
+      .song-progresssm {
+        flex: 1;
+        height: 6px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.2);
+
+        .progress-bar {
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+.player-controls-emptysm {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
