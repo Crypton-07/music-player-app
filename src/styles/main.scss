@@ -1,8 +1,8 @@
-@import "variable";
-@import "player";
-@import "playerSmall";
-@import "songList";
-@import "sidebar";
+@use "variable";
+@use "player";
+@use "playerSmall";
+@use "songList";
+@use "sidebar";
 
 body {
   margin: 0;

@@ -35,7 +35,7 @@ const PlayerControls = () => {
           <div className="progress-container">
             {/* <span className="time-current">{formatTime(currentTime)}</span> */}
             <ProgressBar
-              now={Math.floor(progress)}
+              now={progress}
               className="song-progress"
               onClick={async (e) => {
                 const progressBar = e.currentTarget;
