@@ -55,7 +55,7 @@ const SideBar = () => {
         </Nav.Link>
 
         <Nav.Link
-          className={activeTab === "recent" ? "active" : ""}
+          className={activeTab === "favorites" ? "active" : ""}
           onClick={() => {
             setActiveTab("favorites");
             setShowSidebar(false);
