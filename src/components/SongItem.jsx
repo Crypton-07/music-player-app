@@ -13,10 +13,10 @@ const SongItem = ({ song }) => {
   };
 
   return (
-    <div className={`song-item ${isActive ? "active" : ""}`}>
-      <div className="song-thumbnail" onClick={() => playSong(song)}>
+    <div className={`song-item ${isActive ? "active" : ""}`} onClick={() => playSong(song)}>
+      <div className="song-thumbnail" >
         <img src={song.thumbnail} alt={song.title} />
-        <div className="song-info" onClick={() => playSong(song)}>
+        <div className="song-info">
           <h5 className="song-title">{song.title}</h5>
           <p className="song-artist">{song.artistName}</p>
         </div>
