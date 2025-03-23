@@ -29,7 +29,7 @@ export const songsData = [
     title: "Ajab Si",
     artistName: "KK",
     thumbnail:
-      "https://pagalnew.com/coverimages/Ajab-Si-Om-Shanti-Om-500-500.jpg",
+      "https://i.scdn.co/image/ab67616d0000b273675b3f7dea80153c73581e5e",
     duration: 242,
     musicUrl: "/songs/Ajab-Si.mp3",
   },

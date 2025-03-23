@@ -21,18 +21,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    padding-bottom: 1rem;
+    gap: 16px;
+    padding-bottom: 16px;
     h2 {
-      font-size: 24px;
+      font-size: 48px;
       margin: 0;
+    }
+
+    .logo{
+      width: 35%;
+      margin: 16px 16px;
     }
 
     .close-sidebar {
       background: none;
       border: none;
       color: white;
-      font-size: 1.5rem;
+      font-size: 24px;
       margin: 0 5px;
       cursor: pointer;
     }
@@ -41,13 +46,16 @@
   .sidebar-nav {
     .nav-link {
       color: rgba(255, 255, 255, 0.8);
-      padding: 10px 0;
+      padding: 16px 0;
       display: flex;
       align-items: center;
+      font-size: 28px;
+      margin: 16px 16px;
+
 
       i {
-        margin-right: 10px;
-        font-size: 1.2rem;
+        margin-right: 16px;
+        font-size: 32px;
       }
 
       &:hover,

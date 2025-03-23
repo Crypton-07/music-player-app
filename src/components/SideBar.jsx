@@ -26,9 +26,10 @@ const SideBar = () => {
     >
       <div className="sidebar-header">
         <img
+        className="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png"
           alt="logo"
-          width={100}
+          
         />
         {showSidebar && (
           <button

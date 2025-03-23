@@ -13,7 +13,7 @@ export const extractDominantColor = async (imageUrl) => {
         primary: "#36656C",
         secondary: "#FEC408",
       },
-    "https://pagalnew.com/coverimages/Ajab-Si-Om-Shanti-Om-500-500.jpg": {
+    "https://i.scdn.co/image/ab67616d0000b273675b3f7dea80153c73581e5e": {
       primary: "#753973",
       secondary: "#E3ED8D",
     },

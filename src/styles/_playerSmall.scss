@@ -38,7 +38,7 @@
         background: none;
         border: none;
         color: white;
-        font-size: 1.2rem;
+        font-size: 32px;
         cursor: pointer;
 
         &.activesm {
@@ -52,18 +52,18 @@
     .control-buttonssm {
       display: flex;
       justify-content: center;
-      gap: 1rem;
+      gap: 16px;
       margin-bottom: 10px;
 
       .control-btnsm {
         background: none;
         border: none;
         color: white;
-        font-size: 1.5rem;
+        font-size: 24px;
         cursor: pointer;
 
         &.play-pausesm {
-          font-size: 2rem;
+          font-size: 32px;
         }
       }
     }
